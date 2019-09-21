@@ -1,0 +1,141 @@
+[
+
+    {
+        "id": 1, 
+        "name": "Bayleef", 
+        "image": "./images/Bayleef.png" 
+    }, 
+
+    {
+        "id": 2, 
+        "name": "Bulbasaur", 
+        "image": "./images/bulbasaur.png" 
+    },
+    
+    {
+        "id": 3, 
+        "name": "Butterfree", 
+        "image": "./images/Butterfree.png" 
+    }, 
+
+    {
+        "id": 4, 
+        "name": "Charmander", 
+        "image": "./images/Charmander.png" 
+    }, 
+
+    {
+        "id": 5, 
+        "name": "Chikorita", 
+        "image": "./images/Chikorita.png" 
+    }, 
+
+    {
+        "id": 6, 
+        "name": "Clefairy", 
+        "image": "./images/Clefairy.png" 
+    }, 
+
+    {
+        "id": 7, 
+        "name": "Cubone", 
+        "image": "./images/cubone.png" 
+    }, 
+
+    {
+        "id": 8, 
+        "name": "Cyndaquil", 
+        "image": "./images/Cyndaquil.png" 
+    }, 
+
+    {
+        "id": 9, 
+        "name": "Flaaffy", 
+        "image": "./images/Flaaffy.png" 
+    }, 
+
+    {
+        "id": 10, 
+        "name": "Horsea", 
+        "image": "./images/Green_Horsea.png" 
+    }, 
+
+
+    {
+        "id": 11, 
+        "name": "Hoothoot", 
+        "image": "./images/Hoothoot.png" 
+    }, 
+
+    {
+        "id": 12, 
+        "name": "Hoppip", 
+        "image": "./images/hoppip.png" 
+    }, 
+
+    {
+        "id": 13, 
+        "name": "Marill", 
+        "image": "./images/Marill.png" 
+    }, 
+
+    {
+        "id": 14, 
+        "name": "Meowth", 
+        "image": "./images/meowth.jpg" 
+    }, 
+
+    {
+        "id": 15, 
+        "name": "Pichu", 
+        "image": "./images/Pichu.png" 
+    }, 
+
+    {
+        "id": 16, 
+        "name": "Poliwhirl", 
+        "image": "./images/Poliwhirl.png" 
+    }, 
+
+    {
+        "id": 17, 
+        "name": "Psyduck", 
+        "image": "./images/psyduck.png" 
+    }, 
+
+    {
+        "id": 18, 
+        "name": "Seel", 
+        "image": "./images/Seel.png" 
+    }, 
+
+    {
+        "id": 18, 
+        "name": "Snubbull", 
+        "image": "./images/snubbull.png" 
+    }, 
+
+    {
+        "id": 19, 
+        "name": "Squirtle", 
+        "image": "./images/squirtle.png" 
+    }, 
+
+    {
+        "id": 20, 
+        "name": "Togepi", 
+        "image": "./images/togepi.png" 
+    }, 
+
+    {
+        "id": 21, 
+        "name": "Totodile", 
+        "image": "./images/Totodile.png" 
+    },
+
+    {
+        "id": 22, 
+        "name": "Umbreon", 
+        "image": "./images/Umbreon.png" 
+    }
+]

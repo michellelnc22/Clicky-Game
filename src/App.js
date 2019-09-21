@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Card from "./components/cards"; 
-import Wrapper from "./components/wrapper"; 
 import Scoreboard from "./components/scoreboard"; 
+import Footer from "./components/footer"; 
 import './App.css';
 
 class App extends Component {
@@ -90,6 +90,7 @@ render() {
         />
       ))}
       </div>
+      <Footer />
     </div> 
   ); 
 }
