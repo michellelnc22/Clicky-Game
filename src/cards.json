@@ -110,32 +110,38 @@
     }, 
 
     {
-        "id": 18, 
+        "id": 19, 
         "name": "Snubbull", 
         "image": "./images/snubbull.png" 
     }, 
 
     {
-        "id": 19, 
+        "id": 20, 
         "name": "Squirtle", 
         "image": "./images/squirtle.png" 
     }, 
 
     {
-        "id": 20, 
+        "id": 21, 
         "name": "Togepi", 
         "image": "./images/togepi.png" 
     }, 
 
     {
-        "id": 21, 
+        "id": 22, 
         "name": "Totodile", 
         "image": "./images/Totodile.png" 
     },
 
     {
-        "id": 22, 
+        "id": 23, 
         "name": "Umbreon", 
         "image": "./images/Umbreon.png" 
+    }, 
+
+    {
+        "id": 24, 
+        "name": "Growlithe", 
+        "image": "/images/Growlithe.png"
     }
 ]

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Card from "./components/cards"; 
-import Scoreboard from "./components/scoreboard"; 
-import Footer from "./components/footer"; 
+import cards from "./cards.json"; 
+import Card from "./components/Cards/card.js"; 
+import Scoreboard from "./components/Scoreboard/score.js"; 
+import Footer from "./components/Footer/footer.js"; 
 import './App.css';
 
 class App extends Component {
@@ -34,6 +35,7 @@ class App extends Component {
     if (clickedImages.indexOf(id) === -1) {
       clickedImages.push(id); 
       this.userScore(); 
+      this.reshuffle(); 
     } else if (this.state.score === 12) {
       this.setState({
         success: 1, 
@@ -44,6 +46,9 @@ class App extends Component {
       this.setState({
         score: 0, 
         clickedImages: []
+      }); 
+      this.setState({
+        alert: 1
       }); 
     }
 
@@ -59,6 +64,10 @@ userScore = () => {
   this.setState({ score: this.state.score + 1 }); 
 }; 
 
+reshuffle = () => {
+  this.setState({ cards: this.shuffle(cards) }); 
+}; 
+
 render() {
 
   return (
@@ -72,27 +81,27 @@ render() {
       style={{ opacity: this.state.success }}>
         You're doing great! Keep going! 
       </div>
+      <div className="scoreboard">
       <Scoreboard 
-
       title="Pokemon Clicky Game"
       score={this.state.score}
       highScore={this.state.highScore}
-      />
-
-      <div className="row">
-      {this.state.cards.map(picture => (
+        />
+        </div>
+    
+      {this.state.cards.map(card => (
         <Card 
-        key={picture.id}
-        id={picture.id}
-        name={picture.name}
-        image={picture.image}
+        key={card.id}
+        id={card.id}
+        name={card.name}
+        image={card.image}
         clickedImage={this.clickedImage}
         />
       ))}
-      </div>
+  
+    
       <Footer />
-    </div> 
-  ); 
+    </div>); 
 }
 }
 

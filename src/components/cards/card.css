@@ -1,0 +1,22 @@
+.card {
+    height: 125px; 
+    width: 125px; 
+    margin: 0 auto 30px; 
+    border: 1px;    
+}
+
+.card > .img-container {
+    overflow: hidden; 
+    position: absolute; 
+}
+
+.card .img-container > img {
+
+    width: 80%; 
+    height: 80%; 
+
+}
+
+.card {
+    display: inline-block; 
+}
