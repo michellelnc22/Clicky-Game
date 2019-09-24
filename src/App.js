@@ -6,7 +6,6 @@ import Footer from "./components/Footer/footer.js";
 import './App.css';
 
 class App extends Component {
-
   state = {
     cards, 
     score: 0, 
@@ -21,6 +20,7 @@ class App extends Component {
       const j = Math.floor(Math.random() * (i + 1)); 
       [a[i], a[j]] = [a[j], a[i]]; 
     }
+    return a;
   }; 
 
   clickedImage = id => {
@@ -30,12 +30,12 @@ class App extends Component {
     let highScore = this.state.highScore; 
     this.setState({
       alert: 0
-    }); 
+    });
 
     if (clickedImages.indexOf(id) === -1) {
       clickedImages.push(id); 
       this.userScore(); 
-      this.reshuffle(); 
+      this.reshuffle();
     } else if (this.state.score === 12) {
       this.setState({
         success: 1, 
@@ -54,10 +54,9 @@ class App extends Component {
 
     if (score > highScore) {
       this.setState({
-        highScore: score
+        highScore: score,
       }); 
     }
-
   }; 
 
 userScore = () => {
@@ -88,16 +87,17 @@ render() {
       highScore={this.state.highScore}
         />
         </div>
-    
-      {this.state.cards.map(card => (
-        <Card 
-        key={card.id}
-        id={card.id}
-        name={card.name}
-        image={card.image}
-        clickedImage={this.clickedImage}
-        />
-      ))}
+      {
+        this.state.cards && this.state.cards.map(card => (
+          <Card 
+          key={card.id }
+          id={card.id}
+          name={card.name}
+          image={card.image}
+          clickedImage={this.clickedImage}
+          />
+        ))
+      }
   
     
       <Footer />
