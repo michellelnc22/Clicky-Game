@@ -1,7 +1,7 @@
 import React from "react"; 
 import "./scoreboard.css"; 
 
-function Scoreboard(props) {
+function Score(props) {
 
     return(
 
@@ -18,4 +18,4 @@ function Scoreboard(props) {
     ); 
 }
 
-export default Scoreboard; 
+export default Score; 

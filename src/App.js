@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import cards from "./cards.json"; 
 import Card from "./components/Card/card.js"; 
-import Scoreboard from "./components/Scoreboard/score.js"; 
+import Score from "./components/Score/score.js"; 
 import Footer from "./components/Footer/footer.js"; 
 import './App.css';
 
@@ -81,7 +81,7 @@ render() {
         You're doing great! Keep going! 
       </div>
       <div className="scoreboard">
-      <Scoreboard 
+      <Score 
       title="Pokemon Clicky Game"
       score={this.state.score}
       highScore={this.state.highScore}
