@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import cards from "./cards.json"; 
-import Card from "./components/Cards/card.js"; 
+import Card from "./components/Card/card.js"; 
 import Scoreboard from "./components/Scoreboard/score.js"; 
 import Footer from "./components/Footer/footer.js"; 
 import './App.css';
