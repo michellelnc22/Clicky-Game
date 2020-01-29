@@ -12,4 +12,4 @@ React, Bootstrap, Google Fonts, JavaScript and CSS
 
 ### Screenshots: 
 
-![Game Demo] (https://github.com/michellelnc22/Clicky-Game/blob/master/public/images/game-screenshots.png)
+![Game Demo](https://github.com/michellelnc22/Clicky-Game/blob/master/public/images/game-screenshots.png)
