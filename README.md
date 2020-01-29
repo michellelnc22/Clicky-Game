@@ -9,3 +9,7 @@ https://warm-bayou-78054.herokuapp.com/
 
 ### Made With: 
 React, Bootstrap, Google Fonts, JavaScript and CSS 
+
+### Screenshots: 
+
+![Game Demo] (https://github.com/michellelnc22/Clicky-Game/blob/master/public/images/game-screenshots.png)
